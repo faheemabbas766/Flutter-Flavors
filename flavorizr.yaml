@@ -1,0 +1,23 @@
+flavors:
+  production:
+
+    app:
+      name: "Production App"
+    android:
+      applicationId: "com.example.production"
+    ios:
+      bundleId: "com.example.production"
+  development:
+    app:
+      name: "Development App"
+    android:
+      applicationId: "com.example.development"
+    ios:
+      bundleId: "com.example.development"
+  staging: # Renamed from `testing` to `staging`
+    app:
+      name: "Staging App"
+    android:
+      applicationId: "com.example.staging"
+    ios:
+      bundleId: "com.example.staging"
